@@ -1,0 +1,72 @@
+main ul {
+    background-color: #fa0000;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    font-family: "sans-serif";
+    font-weight: bold;
+    padding: 16px;
+
+}
+
+p {
+    color: #FF0000;
+    font-size: 2.0em;
+    padding: 16x;
+}
+
+nav ul li {
+    display: inline;
+    border-right: 2px solid #642e2e;
+
+}
+
+.green {
+    color: #1cf100;
+    font-size: 2.0em;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+h1 {
+    padding: 16px;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background: #95bb63 url("../images/pepsi.jpg");
+
+
+
+}
+
+main {
+    width: 70%;
+    float: left
+}
+
+aside {
+    width: 20%;
+    float: right
+}
+
+body img {
+    max-width: 65%;
+    margin-bottom: .5em;
+}
+
+@media only screen and (max-width: 980px) {
+    main {
+        width: 90%;
+        float: none;
+    }
+
+    aside {
+        width: 90%;
+        float: none;
+    }
+}
+ul { display: flex;
+flex-direction: column; 
+}
